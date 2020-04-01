@@ -1,17 +1,15 @@
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font: normal normal normal 1.8em/1.6 'Roboto', sans-serif; /* currently ems cause chrome bug misinterpreting rems on body element */
   background-color: gray;
   margin: 0;
   overflow-x: hidden; }
-.material-icons {display: block; padding: 0.05rem;  }
+.material-icons {display: block; padding: 0.1rem;  }
 h1 {
-  border-bottom: 0.3rem solid rgb(0, 139, 41);
-  margin: 1.6rem; }
+  font-weight: lighter; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+  border-bottom: 0.3rem solid rgb(0, 131, 81);
+  margin: 3rem; }
 img {
   display: block;
   margin-left: auto;
@@ -29,8 +27,7 @@ footer {
   background-color: black;
   color: white;
   padding: 1.4rem 1.6rem;
-  font-size: 1.4rem;
-  letter-spacing: 0.25; }
+  font: normal small-caps normal 1.4rem/0.25 'Roboto', sans-serif; }
 
 /* Page container */
 .pcont {
@@ -44,7 +41,8 @@ footer {
   padding-top: 5rem; /*footer height*/
   max-width: 960px;
   width: 100%;
-  background-color: white;}
+  background-color: white;
+  justify-content: center;  }
 
 /* Top navigation */
 .topnav {
@@ -53,22 +51,24 @@ footer {
   top: 0;
   width: inherit;
   max-width: 960px;
-  border-bottom: 0.4rem solid rgb(0, 139, 41); }
+  border-bottom: 0.4rem solid rgb(0, 131, 81); }
 .topnav a {
   float: left;
   color: white;
   text-align: center;
   padding: 1.4rem 1.4rem 1rem 1.4rem;
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 1.6rem;  }
+  font: 1.6rem 'Roboto Mono'; }
 .topnav-right {float: right; margin-right: 2rem}
 .topnav a:hover {
   font-weight: bold; }
 .topnav a.active {
   font-weight: bold;
-  background-color: rgb(0, 139, 41);  }
+  background-color: rgb(0, 131, 81);  }
 
 .tekst {
-  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
   padding: 1.5rem; }
