@@ -8,7 +8,7 @@ body {
 .material-icons {display: block; padding: 0.1rem;  }
 h1 {
   font-weight: lighter; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
-  border-bottom: 0.3rem solid rgb(0, 131, 81);
+  border-bottom: 0.3rem solid rgb(0, 131, 81); /*RAL6024*/
   margin: 3rem; }
 img {
   display: block;
