@@ -7,9 +7,13 @@ body {
   overflow-x: hidden; }
 .material-icons {display: block; padding: 0.3rem;  }
 h1 {
+  font-weight: lighter; font-size: 6rem; line-height: 1.2;  letter-spacing: -.1rem;
+  }
+h2 {
   font-weight: lighter; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
   border-bottom: 0.3rem solid rgb(0, 131, 81); /*RAL6024*/
   }
+
 /* Page container */
 .pcont {
   width: 100%;
@@ -80,7 +84,7 @@ footer {
 
 .tekst {
   max-width: 600px;
-  padding: 1.5rem; }
+  padding: 4rem 1.5rem; }
 
 .intro {
   width: 100%;
@@ -101,19 +105,27 @@ footer {
   justify-content: center;  }
 .tabwrapper {
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(200, 200, 200);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .tab {
-  width: 300px;
+  width: 32rem;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 3rem;
   font: normal normal lighter 1.6rem/1.2 'Roboto', sans-serif;
+  border-radius: 1rem;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.tab:hover {
+  background-color: rgb(180, 200, 190);
 }
 .tab img {
   width: 100%;
-  height: 180px;
+  height: 140px;
   margin-left: auto;
   margin-right: auto;
 }
